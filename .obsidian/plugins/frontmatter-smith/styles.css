@@ -1,0 +1,115 @@
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/index.module.css */
+.frontmatter-smith-79MhFW-forge-config {
+  --grid-gap: var(--size-4-2);
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/forge-editor/index.module.css */
+.frontmatter-smith-MG0XdW-forge-config-block {
+  border: var(--border-width) solid black;
+  border-radius: var(--radius-s);
+  padding: 1rem;
+}
+.frontmatter-smith-MG0XdW-forge-config-header {
+  gap: 1rem;
+  display: flex;
+}
+.frontmatter-smith-MG0XdW-forge-config-heading {
+  margin: 0 auto 0 0;
+}
+.frontmatter-smith-MG0XdW-forge-config-commands {
+  border-top: 1px solid var(--background-modifier-border);
+  margin-top: .75rem;
+  padding-top: .75rem;
+}
+.frontmatter-smith-MG0XdW-hidden {
+  display: none;
+}
+
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/value-editor/index.module.css */
+.frontmatter-smith-h3klXG-error-msg {
+  color: var(--text-error);
+}
+.frontmatter-smith-h3klXG-new-command-form {
+  flex-direction: row;
+  gap: 1rem;
+  display: flex;
+}
+
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/value-editor/choice-value-editor.module.css */
+.frontmatter-smith-3ttuBa-value-type-heading {
+  margin-bottom: 0;
+}
+.frontmatter-smith-3ttuBa-value-type-description {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-bottom: .75rem;
+}
+.frontmatter-smith-3ttuBa-options-list {
+  gap: var(--grid-gap);
+  grid-template-columns: auto 1fr 1fr auto;
+  display: grid;
+}
+.frontmatter-smith-3ttuBa-choice-commands {
+  grid-column: 2 / 5;
+}
+.frontmatter-smith-3ttuBa-hidden {
+  display: none;
+}
+.frontmatter-smith-3ttuBa-choice-section {
+  display: contents;
+}
+
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/containers/index.module.css */
+.frontmatter-smith-I0bVoa-value-list {
+  border-left: 1px solid #000;
+  padding-left: 1rem;
+}
+.frontmatter-smith-I0bVoa-command-block {
+  display: flex;
+}
+.frontmatter-smith-I0bVoa-command-block-left {
+  margin-right: auto;
+}
+.frontmatter-smith-I0bVoa-command-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.frontmatter-smith-I0bVoa-command-description {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 0;
+}
+
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/value-editor/object-value-editor.module.css */
+.frontmatter-smith-HTuMoW-property-list {
+  gap: var(--grid-gap);
+  grid-template-columns: auto 1fr auto auto;
+  display: grid;
+}
+.frontmatter-smith-HTuMoW-property {
+  display: contents;
+}
+.frontmatter-smith-HTuMoW-property-value {
+  margin: var(--grid-gap) 0;
+  grid-column: 2 / 5;
+}
+
+/* esbuild-css-modules-plugin-ns-css:src/configuration-editor/command-editor/index.module.css */
+.frontmatter-smith-jZeyoW-command-block {
+  display: flex;
+}
+.frontmatter-smith-jZeyoW-command-block-left {
+  margin-right: auto;
+}
+.frontmatter-smith-jZeyoW-command-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.frontmatter-smith-jZeyoW-command-description {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  margin-top: 0;
+}

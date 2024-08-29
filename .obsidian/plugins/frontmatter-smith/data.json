@@ -1,0 +1,122 @@
+{
+  "version": "1",
+  "type": "plugin-config",
+  "editorConfiguration": {
+    "expanded": {
+      "tyHirjc0xb2YkOxT387yU": true
+    }
+  },
+  "smithConfiguration": {
+    "version": "1",
+    "forges": [
+      {
+        "$id": "tyHirjc0xb2YkOxT387yU",
+        "name": "Medicine usage",
+        "commands": [
+          {
+            "$id": "rSAT9yuOgNonl4bvMPEqd",
+            "$command": "add-array-element",
+            "key": "medicin-log",
+            "value": {
+              "$type": "object",
+              "values": [
+                {
+                  "$id": "Klio55iF8ak7ubrjbz52a",
+                  "key": "type",
+                  "value": {
+                    "$type": "choice-input",
+                    "prompt": "Type of medicine",
+                    "options": [
+                      {
+                        "$id": "zbYIQ-cTKXRkhN569ga1I",
+                        "text": "Methylphenidate",
+                        "value": "[[Methylphenidate]]",
+                        "commands": []
+                      },
+                      {
+                        "$id": "KgBBIH2qNxRU5CDn2wKdV",
+                        "text": "Methylphenidate slow release",
+                        "value": "[[Methylphenidate slow release]]",
+                        "commands": []
+                      },
+                      {
+                        "$id": "bX2wjhs7EcsdiFy8WpGbZ",
+                        "text": "Lisdexamfetamine",
+                        "value": "[[Lisdexamfetamine]]",
+                        "commands": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "$id": "MspRdSSptCI7iWqdlty9n",
+                  "key": "dose",
+                  "value": {
+                    "$type": "string-input",
+                    "prompt": "Dose"
+                  }
+                },
+                {
+                  "$id": "Hxuu99E30gePym6OZr31k",
+                  "key": "time",
+                  "value": {
+                    "$type": "string-input",
+                    "prompt": "Time"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "$id": "uGzf7IQMqdAGFrh_37_lj",
+        "name": "Sleep pattern",
+        "commands": [
+          {
+            "$id": "Z5KGKmtzWUfwTOZaVYBQx",
+            "$command": "set-value",
+            "key": "sleep",
+            "value": {
+              "$type": "object",
+              "values": [
+                {
+                  "$id": "7aN0RawgYt3e7dMWqh76B",
+                  "key": "From",
+                  "value": {
+                    "$type": "string-input",
+                    "prompt": "choice ..."
+                  }
+                },
+                {
+                  "$id": "r3n5RIFhs6eybZrRU8WXo",
+                  "key": "To",
+                  "value": {
+                    "$type": "string-input",
+                    "prompt": "choice ..."
+                  }
+                },
+                {
+                  "$id": "ZRB8NfsZjw8voWMBxl-jU",
+                  "key": "Quality",
+                  "value": {
+                    "$type": "number-input",
+                    "prompt": "choice ..."
+                  }
+                },
+                {
+                  "$id": "t93bFvtDzUMO8-fBgeKmi",
+                  "key": "Notes",
+                  "value": {
+                    "$type": "string-input",
+                    "prompt": "choice ..."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
