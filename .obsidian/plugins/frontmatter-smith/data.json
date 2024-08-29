@@ -3,7 +3,8 @@
   "type": "plugin-config",
   "editorConfiguration": {
     "expanded": {
-      "tyHirjc0xb2YkOxT387yU": true
+      "tyHirjc0xb2YkOxT387yU": false,
+      "OF5ULiasSU2wvygr9zBpI": true
     }
   },
   "smithConfiguration": {
@@ -113,6 +114,21 @@
                   }
                 }
               ]
+            }
+          }
+        ]
+      },
+      {
+        "$id": "OF5ULiasSU2wvygr9zBpI",
+        "name": "Templater integration",
+        "commands": [
+          {
+            "$id": "NRdVgsTtFiHy6EkHngc-u",
+            "$command": "set-value",
+            "key": "summary",
+            "value": {
+              "$type": "string-input",
+              "prompt": "What is the summary?"
             }
           }
         ]

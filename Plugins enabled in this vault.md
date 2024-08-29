@@ -1,9 +1,13 @@
 
 The following plugins are used in this vault
 
+## Frontmatter Smith
+
+Obviously; this vault is meant to be used as a demonstration.
+
 ## Daily Notes (core plugin)
 
-One of the main use cases of [[Frontmatter Smith]] is to help record common data you want to track on a daily basis. One of my personal goals was to track the kinds of ADHD medicine I was using; and using other mechanisms to see how it correlates with my behavioural patterns.
+One of the main use cases of [[Frontmatter Smith]] is to help record common data you want to track on a daily basis. One of my personal goals was to track the kinds of ADHD medicine I was using; and using other mechanisms to see how it correlates with behavioural patterns.
 
 So _a_ daily notes plugin is useful for demonstrating this use case, and the core plugin is sufficient for this demo.
 
@@ -20,3 +24,7 @@ JavaScript queries are used to transform data in the query (I think you can do t
 ## Calendar
 
 Used to help entering example data
+
+## Templater
+
+Used to show how Frontmatter smith can be integrated from a templater template
